@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'jwt'
+version '1.0-SNAPSHOT'
+
+mainClassName = 'jwt.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.auth0:java-jwt:3.10.3'
+}
